@@ -17,6 +17,7 @@
 \blacktriangledown
 \blacktriangleleft
 \blacktriangleright
+\Box
 \boxdot
 \boxminus
 \boxplus
@@ -25,6 +26,7 @@
 \Bumpeq
 \Cap
 \centerdot
+\checkmark
 \circeq
 \circlearrowleft
 \circlearrowright
@@ -102,6 +104,7 @@
 \Lsh
 \ltimes
 \lvertneqq
+\maltese
 \measuredangle
 \multimap
 \ncong
@@ -148,7 +151,7 @@
 \precneqq
 \precnsim
 \precsim
-\psamsfonts
+psamsfonts
 \rightarrowtail
 \rightleftarrows
 \rightrightarrows

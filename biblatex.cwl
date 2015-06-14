@@ -5,9 +5,9 @@
 
 \ExecuteBibliographyOptions{key=value, ...}
 
-\bibliography{bib ﬁles}
+\bibliography{bib files}
 
-\addbibresource{bibliographic resource}
+\addbibresource{bibliographic resource}#b
 \addbibresource[options]{bibliographic resource}
 \addglobalbib{resource}
 \addglobalbib[options]{resource}
@@ -25,9 +25,9 @@
 \printshorthands
 \printshorthands[key=value, ...]
 \begin{refsection}
-\begin{refsection}[bib ﬁles]
+\begin{refsection}[bib files]
 \end{refsection}
-\newrefsection[bib ﬁles]
+\newrefsection[bib files]
 \begin{refsegment}
 \end{refsegment}
 \newrefsegment
@@ -41,295 +41,295 @@
 \keyword{keyword}
 \category{category}
 
-\cite[prenote][postnote]{key}
-\cite[postnote]{key}
-\cite{key}
-\Cite[prenote][postnote]{key}
-\Cite[postnote]{key}
-\Cite{key}
+\cite[prenote][postnote]{key}#c
+\cite[postnote]{key}#c
+\cite{key}#c
+\Cite[prenote][postnote]{key}#c
+\Cite[postnote]{key}#c
+\Cite{key}#c
 
-\parencite[prenote][postnote]{key}
-\parencite[postnote]{key}
-\parencite{key}
-\Parencite[prenote][postnote]{key}
-\Parencite[postnote]{key}
-\Parencite{key}
+\parencite[prenote][postnote]{key}#c
+\parencite[postnote]{key}#c
+\parencite{key}#c
+\Parencite[prenote][postnote]{key}#c
+\Parencite[postnote]{key}#c
+\Parencite{key}#c
 
-\footcite[prenote][postnote]{key}
-\footcite[postnote]{key}
-\footcite{key}
-\Footcite[prenote][postnote]{key}
-\Footcite[postnote]{key}
-\Footcite{key}
+\footcite[prenote][postnote]{key}#c
+\footcite[postnote]{key}#c
+\footcite{key}#c
+\Footcite[prenote][postnote]{key}#c
+\Footcite[postnote]{key}#c
+\Footcite{key}#c
 
-\textcite[prenote][postnote]{key}
-\textcite[postnote]{key}
-\textcite{key}
-\Textcite[prenote][postnote]{key}
-\Textcite[postnote]{key}
-\Textcite{key}
+\textcite[prenote][postnote]{key}#c
+\textcite[postnote]{key}#c
+\textcite{key}#c
+\Textcite[prenote][postnote]{key}#c
+\Textcite[postnote]{key}#c
+\Textcite{key}#c
 
-\cite*[prenote][postnote]{key}
-\cite*[postnote]{key}
-\cite*{key}
+\cite*[prenote][postnote]{key}#c
+\cite*[postnote]{key}#c
+\cite*{key}#c
 
-\parencite*[prenote][postnote]{key}
-\parencite*[postnote]{key}
-\parencite*{key}
+\parencite*[prenote][postnote]{key}#c
+\parencite*[postnote]{key}#c
+\parencite*{key}#c
 
-\supercite{key}
+\supercite{key}#c
 
-\cites{key}{key}
-\cites(post){key}{key}
-\cites(pre)(post){key}{key}
-\cites(pre)(post)[post]{key}[post]{key}
-\cites(pre)(post)[pre][post]{key}[pre][post]{key}
-\cites[post]{key}[post]{key}
-\cites[pre][post]{key}[pre][post]{key}
-\cites(pre)(post)[pre][post]{key}[pre][post]{key}
+\cites{key}{key}#c
+\cites(post){key}{key}#c
+\cites(pre)(post){key}{key}#c
+\cites(pre)(post)[post]{key}[post]{key}#c
+\cites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\cites[post]{key}[post]{key}#c
+\cites[pre][post]{key}[pre][post]{key}#c
+\cites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\Cites{key}{key}
-\Cites(post){key}{key}
-\Cites(pre)(post){key}{key}
-\Cites(pre)(post)[post]{key}[post]{key}
-\Cites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Cites[post]{key}[post]{key}
-\Cites[pre][post]{key}[pre][post]{key}
-\Cites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Cites{key}{key}#c
+\Cites(post){key}{key}#c
+\Cites(pre)(post){key}{key}#c
+\Cites(pre)(post)[post]{key}[post]{key}#c
+\Cites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\Cites[post]{key}[post]{key}#c
+\Cites[pre][post]{key}[pre][post]{key}#c
+\Cites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\parencites{key}{key}
-\parencites(post){key}{key}
-\parencites(pre)(post){key}{key}
-\parencites(pre)(post)[post]{key}[post]{key}
-\parencites(pre)(post)[pre][post]{key}[pre][post]{key}
-\parencites[post]{key}[post]{key}
-\parencites[pre][post]{key}[pre][post]{key}
-\parencites(pre)(post)[pre][post]{key}[pre][post]{key}
+\parencites{key}{key}#c
+\parencites(post){key}{key}#c
+\parencites(pre)(post){key}{key}#c
+\parencites(pre)(post)[post]{key}[post]{key}#c
+\parencites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\parencites[post]{key}[post]{key}#c
+\parencites[pre][post]{key}[pre][post]{key}#c
+\parencites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\Parencites{key}{key}
-\Parencites(post){key}{key}
-\Parencites(pre)(post){key}{key}
-\Parencites(pre)(post)[post]{key}[post]{key}
-\Parencites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Parencites[post]{key}[post]{key}
-\Parencites[pre][post]{key}[pre][post]{key}
-\Parencites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Parencites{key}{key}#c
+\Parencites(post){key}{key}#c
+\Parencites(pre)(post){key}{key}#c
+\Parencites(pre)(post)[post]{key}[post]{key}#c
+\Parencites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\Parencites[post]{key}[post]{key}#c
+\Parencites[pre][post]{key}[pre][post]{key}#c
+\Parencites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\textcites{key}{key}
-\textcites(post){key}{key}
-\textcites(pre)(post){key}{key}
-\textcites(pre)(post)[post]{key}[post]{key}
-\textcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\textcites[post]{key}[post]{key}
-\textcites[pre][post]{key}[pre][post]{key}
-\textcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\textcites{key}{key}#c
+\textcites(post){key}{key}#c
+\textcites(pre)(post){key}{key}#c
+\textcites(pre)(post)[post]{key}[post]{key}#c
+\textcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\textcites[post]{key}[post]{key}#c
+\textcites[pre][post]{key}[pre][post]{key}#c
+\textcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\Textcites{key}{key}
-\Textcites(post){key}{key}
-\Textcites(pre)(post){key}{key}
-\Textcites(pre)(post)[post]{key}[post]{key}
-\Textcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Textcites[post]{key}[post]{key}
-\Textcites[pre][post]{key}[pre][post]{key}
-\Textcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Textcites{key}{key}#c
+\Textcites(post){key}{key}#c
+\Textcites(pre)(post){key}{key}#c
+\Textcites(pre)(post)[post]{key}[post]{key}#c
+\Textcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\Textcites[post]{key}[post]{key}#c
+\Textcites[pre][post]{key}[pre][post]{key}#c
+\Textcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\footcites{key}{key}
-\footcites(post){key}{key}
-\footcites(pre)(post){key}{key}
-\footcites(pre)(post)[post]{key}[post]{key}
-\footcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\footcites[post]{key}[post]{key}
-\footcites[pre][post]{key}[pre][post]{key}
-\footcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\footcites{key}{key}#c
+\footcites(post){key}{key}#c
+\footcites(pre)(post){key}{key}#c
+\footcites(pre)(post)[post]{key}[post]{key}#c
+\footcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\footcites[post]{key}[post]{key}#c
+\footcites[pre][post]{key}[pre][post]{key}#c
+\footcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\Footcites{key}{key}
-\Footcites(post){key}{key}
-\Footcites(pre)(post){key}{key}
-\Footcites(pre)(post)[post]{key}[post]{key}
-\Footcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Footcites[post]{key}[post]{key}
-\Footcites[pre][post]{key}[pre][post]{key}
-\Footcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Footcites{key}{key}#c
+\Footcites(post){key}{key}#c
+\Footcites(pre)(post){key}{key}#c
+\Footcites(pre)(post)[post]{key}[post]{key}#c
+\Footcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\Footcites[post]{key}[post]{key}#c
+\Footcites[pre][post]{key}[pre][post]{key}#c
+\Footcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\supercites{key}{key}
-\supercites(post){key}{key}
-\supercites(pre)(post){key}{key}
-\supercites(pre)(post)[post]{key}[post]{key}
-\supercites(pre)(post)[pre][post]{key}[pre][post]{key}
-\supercites[post]{key}[post]{key}
-\supercites[pre][post]{key}[pre][post]{key}
-\supercites(pre)(post)[pre][post]{key}[pre][post]{key}
+\supercites{key}{key}#c
+\supercites(post){key}{key}#c
+\supercites(pre)(post){key}{key}#c
+\supercites(pre)(post)[post]{key}[post]{key}#c
+\supercites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\supercites[post]{key}[post]{key}#c
+\supercites[pre][post]{key}[pre][post]{key}#c
+\supercites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\autocite[prenote][postnote]{key}
-\autocite[postnote]{key}
-\autocite{key}
+\autocite[prenote][postnote]{key}#c
+\autocite[postnote]{key}#c
+\autocite{key}#c
 
-\Autocite[prenote][postnote]{key}
-\Autocite[postnote]{key}
-\Autocite{key}
+\Autocite[prenote][postnote]{key}#c
+\Autocite[postnote]{key}#c
+\Autocite{key}#c
 
-\autocite*[prenote][postnote]{key}
-\autocite*[postnote]{key}
-\autocite*{key}
+\autocite*[prenote][postnote]{key}#c
+\autocite*[postnote]{key}#c
+\autocite*{key}#c
 
-\Autocite*[prenote][postnote]{key}
-\Autocite*[postnote]{key}
-\Autocite*{key}
+\Autocite*[prenote][postnote]{key}#c
+\Autocite*[postnote]{key}#c
+\Autocite*{key}#c
 
-\autocites{key}{key}
-\autocites(post){key}{key}
-\autocites(pre)(post){key}{key}
-\autocites(pre)(post)[post]{key}[post]{key}
-\autocites(pre)(post)[pre][post]{key}[pre][post]{key}
-\autocites[post]{key}[post]{key}
-\autocites[pre][post]{key}[pre][post]{key}
-\autocites(pre)(post)[pre][post]{key}[pre][post]{key}
+\autocites{key}{key}#c
+\autocites(post){key}{key}#c
+\autocites(pre)(post){key}{key}#c
+\autocites(pre)(post)[post]{key}[post]{key}#c
+\autocites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\autocites[post]{key}[post]{key}#c
+\autocites[pre][post]{key}[pre][post]{key}#c
+\autocites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\Autocites{key}{key}
-\Autocites(post){key}{key}
-\Autocites(pre)(post){key}{key}
-\Autocites(pre)(post)[post]{key}[post]{key}
-\Autocites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Autocites[post]{key}[post]{key}
-\Autocites[pre][post]{key}[pre][post]{key}
-\Autocites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Autocites{key}{key}#c
+\Autocites(post){key}{key}#c
+\Autocites(pre)(post){key}{key}#c
+\Autocites(pre)(post)[post]{key}[post]{key}#c
+\Autocites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\Autocites[post]{key}[post]{key}#c
+\Autocites[pre][post]{key}[pre][post]{key}#c
+\Autocites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\smartcite[prenote][postnote]{key}
-\smartcite[postnote]{key}
-\smartcite{key}
+\smartcite[prenote][postnote]{key}#c
+\smartcite[postnote]{key}#c
+\smartcite{key}#c
 
-\Smartcite[prenote][postnote]{key}
-\Smartcite[postnote]{key}
-\Smartcite{key}
+\Smartcite[prenote][postnote]{key}#c
+\Smartcite[postnote]{key}#c
+\Smartcite{key}#c
 
-\smartcites{key}{key}
-\smartcites(post){key}{key}
-\smartcites(pre)(post){key}{key}
-\smartcites(pre)(post)[post]{key}[post]{key}
-\smartcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\smartcites[post]{key}[post]{key}
-\smartcites[pre][post]{key}[pre][post]{key}
-\smartcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\smartcites{key}{key}#c
+\smartcites(post){key}{key}#c
+\smartcites(pre)(post){key}{key}#c
+\smartcites(pre)(post)[post]{key}[post]{key}#c
+\smartcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\smartcites[post]{key}[post]{key}#c
+\smartcites[pre][post]{key}[pre][post]{key}#c
+\smartcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\Smartcites{key}{key}
-\Smartcites(post){key}{key}
-\Smartcites(pre)(post){key}{key}
-\Smartcites(pre)(post)[post]{key}[post]{key}
-\Smartcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Smartcites[post]{key}[post]{key}
-\Smartcites[pre][post]{key}[pre][post]{key}
-\Smartcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Smartcites{key}{key}#c
+\Smartcites(post){key}{key}#c
+\Smartcites(pre)(post){key}{key}#c
+\Smartcites(pre)(post)[post]{key}[post]{key}#c
+\Smartcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
+\Smartcites[post]{key}[post]{key}#c
+\Smartcites[pre][post]{key}[pre][post]{key}#c
+\Smartcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
-\svolcite{volume}{key}
-\svolcite[prenote]{volume}{key}
-\svolcite{volume}[page]{key}
-\svolcite[prenote]{volume}[page]{key}
+\svolcite{volume}{key}#c
+\svolcite[prenote]{volume}{key}#c
+\svolcite{volume}[page]{key}#c
+\svolcite[prenote]{volume}[page]{key}#c
 
-\Svolcite{volume}{key}
-\Svolcite[prenote]{volume}{key}
-\Svolcite{volume}[page]{key}
-\Svolcite[prenote]{volume}[page]{key}
+\Svolcite{volume}{key}#c
+\Svolcite[prenote]{volume}{key}#c
+\Svolcite{volume}[page]{key}#c
+\Svolcite[prenote]{volume}[page]{key}#c
 
-\tvolcite{volume}{key}
-\tvolcite[prenote]{volume}{key}
-\tvolcite{volume}[page]{key}
-\tvolcite[prenote]{volume}[page]{key}
+\tvolcite{volume}{key}#c
+\tvolcite[prenote]{volume}{key}#c
+\tvolcite{volume}[page]{key}#c
+\tvolcite[prenote]{volume}[page]{key}#c
 
-\Tvolcite{volume}{key}
-\Tvolcite[prenote]{volume}{key}
-\Tvolcite{volume}[page]{key}
-\Tvolcite[prenote]{volume}[page]{key}
+\Tvolcite{volume}{key}#c
+\Tvolcite[prenote]{volume}{key}#c
+\Tvolcite{volume}[page]{key}#c
+\Tvolcite[prenote]{volume}[page]{key}#c
 
-\avolcite{volume}{key}
-\avolcite[prenote]{volume}{key}
-\avolcite{volume}[page]{key}
-\avolcite[prenote]{volume}[page]{key}
+\avolcite{volume}{key}#c
+\avolcite[prenote]{volume}{key}#c
+\avolcite{volume}[page]{key}#c
+\avolcite[prenote]{volume}[page]{key}#c
 
-\Avolcite{volume}{key}
-\Avolcite[prenote]{volume}{key}
-\Avolcite{volume}[page]{key}
-\Avolcite[prenote]{volume}[page]{key}
+\Avolcite{volume}{key}#c
+\Avolcite[prenote]{volume}{key}#c
+\Avolcite{volume}[page]{key}#c
+\Avolcite[prenote]{volume}[page]{key}#c
 
-\notecite{volume}{key}
-\notecite[prenote]{volume}{key}
-\notecite{volume}[postnote]{key}
-\notecite[prenote]{volume}[postnote]{key}
+\notecite{volume}{key}#c
+\notecite[prenote]{volume}{key}#c
+\notecite{volume}[postnote]{key}#c
+\notecite[prenote]{volume}[postnote]{key}#c
 
-\Notecite{volume}{key}
-\Notecite[prenote]{volume}{key}
-\Notecite{volume}[postnote]{key}
-\Notecite[prenote]{volume}[postnote]{key}
+\Notecite{volume}{key}#c
+\Notecite[prenote]{volume}{key}#c
+\Notecite{volume}[postnote]{key}#c
+\Notecite[prenote]{volume}[postnote]{key}#c
 
-\pnotecite{volume}{key}
-\pnotecite[prenote]{volume}{key}
-\pnotecite{volume}[postnote]{key}
-\pnotecite[prenote]{volume}[postnote]{key}
+\pnotecite{volume}{key}#c
+\pnotecite[prenote]{volume}{key}#c
+\pnotecite{volume}[postnote]{key}#c
+\pnotecite[prenote]{volume}[postnote]{key}#c
 
-\Pnotecite{volume}{key}
-\Pnotecite[prenote]{volume}{key}
-\Pnotecite{volume}[postnote]{key}
-\Pnotecite[prenote]{volume}[postnote]{key}
+\Pnotecite{volume}{key}#c
+\Pnotecite[prenote]{volume}{key}#c
+\Pnotecite{volume}[postnote]{key}#c
+\Pnotecite[prenote]{volume}[postnote]{key}#c
 
-\fnotecite{volume}{key}
-\fnotecite[prenote]{volume}{key}
-\fnotecite{volume}[postnote]{key}
-\fnotecite[prenote]{volume}[postnote]{key}
+\fnotecite{volume}{key}#c
+\fnotecite[prenote]{volume}{key}#c
+\fnotecite{volume}[postnote]{key}#c
+\fnotecite[prenote]{volume}[postnote]{key}#c
 
-\citeauthor[prenote][postnote]{key}
-\citeauthor[postnote]{key}
-\citeauthor{key}
+\citeauthor[prenote][postnote]{key}#c
+\citeauthor[postnote]{key}#c
+\citeauthor{key}#c
 
-\citedate[prenote][postnote]{key}
-\citedate[postnote]{key}
-\citedate{key}
+\citedate[prenote][postnote]{key}#c
+\citedate[postnote]{key}#c
+\citedate{key}#c
 
-\Citeauthor[prenote][postnote]{key}
-\Citeauthor[postnote]{key}
-\Citeauthor{key}
+\Citeauthor[prenote][postnote]{key}#c
+\Citeauthor[postnote]{key}#c
+\Citeauthor{key}#c
 
-\citetitle[prenote][postnote]{key}
-\citetitle[postnote]{key}
-\citetitle{key}
+\citetitle[prenote][postnote]{key}#c
+\citetitle[postnote]{key}#c
+\citetitle{key}#c
 
-\citetitle*[prenote][postnote]{key}
-\citetitle*[postnote]{key}
-\citetitle*{key}
+\citetitle*[prenote][postnote]{key}#c
+\citetitle*[postnote]{key}#c
+\citetitle*{key}#c
 
-\citeyear[prenote][postnote]{key}
-\citeyear[postnote]{key}
-\citeyear{key}
+\citeyear[prenote][postnote]{key}#c
+\citeyear[postnote]{key}#c
+\citeyear{key}#c
 
-\citeurl[prenote][postnote]{key}
-\citeurl[postnote]{key}
-\citeurl{key}
+\citeurl[prenote][postnote]{key}#c
+\citeurl[postnote]{key}#c
+\citeurl{key}#c
 
-\nocite{key}
+\nocite{key}#c
 
-\fullcite[prenote][postnote]{key}
-\fullcite[postnote]{key}
-\fullcite{key}
+\fullcite[prenote][postnote]{key}#c
+\fullcite[postnote]{key}#c
+\fullcite{key}#c
 
-\footfullcite[prenote][postnote]{key}
-\footfullcite[postnote]{key}
-\footfullcite{key}
+\footfullcite[prenote][postnote]{key}#c
+\footfullcite[postnote]{key}#c
+\footfullcite{key}#c
 
 \citename[prenote][postnote]{key}[format]{name list}
 \citename[postnote]{key}[format]{name list}
 \citename[postnote]{key}{name list}
 \citename{key}[format]{name list}
-\citename{key}{name list}
+\citename{key}{name list}#c
 
 \citelist[prenote][postnote]{key}[format]{literallist}
 \citelist[postnote]{key}[format]{literal list}
 \citelist[postnote]{key}{literal list}
 \citelist{key}[format]{literal list}
-\citelist{key}{literal list}
+\citelist{key}{literal list}#c
 
 \citefield[prenote][postnote]{key}[format]{field}
 \citefield[postnote]{key}[format]{field}
 \citefield[postnote]{key}{field}
 \citefield{key}[format]{field}
-\citefield{key}{field}
+\citefield{key}{field}#c
 
 \citereset
 \citereset*
@@ -343,11 +343,11 @@
 \RN{integer}
 \Rn{integer}
 
-\DefineBibliographyStrings{language}{deﬁnitions}
+\DefineBibliographyStrings{language}{definitions}
 \DefineBibliographyExtras{language}{code}
 \UndefineBibliographyExtras{language}{code}
 \DefineHyphenationExceptions{language}{text}
-\NewBibliographyString{key}
+\NewBibliographyString{key}#c
 
 \bibsetup
 \bibfont
@@ -420,4 +420,3 @@ smartand # counter
 
 # memoir class
 \ifmemoirbibintoc{true}{false}
-

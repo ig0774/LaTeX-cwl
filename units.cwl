@@ -5,7 +5,8 @@
 
 \unit[value]{dimension}
 \unit{dimension}
-\unitfrac[value]{numerator}{denominator}
-\unitfrac{numerator}{denominator}
-\nicefrac[fontcmd]{numerator}{denominator}
-\nicefrac{numerator}{denominator}
+\unitfrac[value]{%<num%:translatable%>}{%<den%:translatable%>}
+\unitfrac{%<num%:translatable%>}{%<den%:translatable%>}
+\nicefrac[fontcmd]{%<num%:translatable%>}{%<den%:translatable%>}
+\nicefrac{%<num%:translatable%>}{%<den%:translatable%>}
+

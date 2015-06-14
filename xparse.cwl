@@ -1,8 +1,5 @@
-##
-#  @file
-#  @brief xparse LaTeX-CWL completion
-#  @author N4M3Z <https://github.com/N4M3Z>
-#
+# created by sungmin817
+#include:expl3
 \DeclareDocumentCommand{function}{arg spec}{code}
 \NewDocumentCommand{function}{arg spec}{code}
 \RenewDocumentCommand{function}{arg spec}{code}
