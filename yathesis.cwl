@@ -88,42 +88,42 @@ babel
 datetime
 #endkeyvals
 #
-\yadsetup{%<options%>}#n
+\yadsetup{options}#n
 #
 # Cover and title pages
 #
 # Author
-\author{%<prénom%>}{%<nom%>}#n
-\author[%<email%>]{%<prénom%>}{%<nom%>}#n
+\author{prénom}{nom}#n
+\author[email]{prénom}{nom}#n
 #
 # Title, etc.
-\title[%<titre dans la langue secondaire%>]{%<titre dans la langue principale%>}#n
-\subtitle[%<sous-titre dans la langue secondaire%>]{%<sous-titre dans la langue principale%>}#n
-\academicfield[%<discipline dans la langue secondaire%>]{%<discipline dans la langue principale%>}#n
-\speciality[%<spécialité dans la langue secondaire%>]{%<spécialité dans la langue principale%>}#n
-\subject[%<sujet dans la langue secondaire%>]{%<sujet dans la langue principale%>}#n
+\title[<titre dans la langue secondaire>]{<titre dans la langue principale>}#n
+\subtitle[<sous-titre dans la langue secondaire>]{<sous-titre dans la langue principale>}#n
+\academicfield[<discipline dans la langue secondaire>]{<discipline dans la langue principale>}#n
+\speciality[<spécialité dans la langue secondaire>]{<spécialité dans la langue principale>}#n
+\subject[<sujet dans la langue secondaire>]{<sujet dans la langue principale>}#n
 #
-\title{%<titre%>}#n
-\subtitle{%<sous-titre%>}#n
-\academicfield{%<discipline%>}#n
-\speciality{%<spécialité%>}#n
-\subject{%<sujet%>}#n
-\date{%<jour%>}{%<mois%>}{%<année%>}#n
+\title{titre}#n
+\subtitle{sous-titre}#n
+\academicfield{discipline}#n
+\speciality{spécialité}#n
+\subject{sujet}#n
+\date{jour}{mois}{année}#n
 #
 # Institute and entities
-\pres{%<nom du PRES%>}#n
-\institute{%<nom de l'institut%>}#n
-\coinstitute{%<nom de l'institut de cotutelle%>}#n
-\company{%<nom de l'entreprise%>}#n
-\doctoralschool{%<nom de l'école doctorale%>}#n
-\laboratory{%<nom du laboratoire%>}{adresse du laboratoire%>}#n
+\pres{<nom du PRES>}#n
+\institute{<nom de l'institut>}#n
+\coinstitute{<nom de l'institut de cotutelle>}#n
+\company{<nom de l'entreprise>}#n
+\doctoralschool{<nom de l'école doctorale>}#n
+\laboratory{<nom du laboratoire>}{adresse du laboratoire%>}#n
 #
-\pres[%<précision(s)%>]{%<nom du PRES%>}#n
-\institute[%<précision(s)%>]{%<nom de l'institut%>}#n
-\coinstitute[%<précision(s)%>]{%<nom de l'institut de cotutelle%>}#n
-\company[%<précision(s)%>]{%<nom de l'entreprise%>}#n
-\doctoralschool[%<précision(s)%>]{%<nom de l'école doctorale%>}#n
-\laboratory[%<précision(s)%>]{%<nom du laboratoire%>}{%<adresse du laboratoire%>}#n
+\pres[précision(s)]{<nom du PRES>}#n
+\institute[précision(s)]{<nom de l'institut>}#n
+\coinstitute[précision(s)]{<nom de l'institut de cotutelle>}#n
+\company[précision(s)]{<nom de l'entreprise>}#n
+\doctoralschool[précision(s)]{<nom de l'école doctorale>}#n
+\laboratory[précision(s)]{<nom du laboratoire>}{<adresse du laboratoire>}#n
 #
 #keyvals:\pres
 logo=
@@ -161,21 +161,21 @@ nonamelink
 #endkeyvals
 #
 # Committee
-\supervisor{%<prénom%>}{%<nom%>}#n
-\cosupervisor{%<prénom%>}{%<nom%>}#n
-\comonitor{%<prénom%>}{%<nom%>}#n
-\referee{%<prénom%>}{%<nom%>}#n
-\examiner{%<prénom%>}{%<nom%>}#n
-\committeepresident{%<prénom%>}{%<nom%>}#n
-\guest{%<prénom%>}{%<nom%>}#n
+\supervisor{prénom}{nom}#n
+\cosupervisor{prénom}{nom}#n
+\comonitor{prénom}{nom}#n
+\referee{prénom}{nom}#n
+\examiner{prénom}{nom}#n
+\committeepresident{prénom}{nom}#n
+\guest{prénom}{nom}#n
 #
-\supervisor[%<précision(s)%>]{%<prénom%>}{%<nom%>}#n
-\cosupervisor[%<précision(s)%>]{%<prénom%>}{%<nom%>}#n
-\comonitor[%<précision(s)%>]{%<prénom%>}{%<nom%>}#n
-\referee[%<précision(s)%>]{%<prénom%>}{%<nom%>}#n
-\examiner[%<précision(s)%>]{%<prénom%>}{%<nom%>}#n
-\committeepresident[%<précision(s)%>]{%<prénom%>}{%<nom%>}#n
-\guest[%<précision(s)%>]{%<prénom%>}{%<nom%>}#n
+\supervisor[précision(s)]{prénom}{nom}#n
+\cosupervisor[précision(s)]{prénom}{nom}#n
+\comonitor[précision(s)]{prénom}{nom}#n
+\referee[précision(s)]{prénom}{nom}#n
+\examiner[précision(s)]{prénom}{nom}#n
+\committeepresident[précision(s)]{prénom}{nom}#n
+\guest[précision(s)]{prénom}{nom}#n
 #
 #keyvals:\supervisor
 affiliation=
@@ -242,25 +242,25 @@ juniorresearcher*
 #endkeyvals
 #
 # Misc
-\ordernumber[%<numéro d'ordre%>]#n
+\ordernumber[numéro d'ordre]#n
 \ordernumber#n*
-\submissiondate{%<jour%>}{%<mois%>}{%<année%>}#n
+\submissiondate{jour}{mois}{année}#n
 #
 # Preliminary pages
 #
-\disclaimer{%<clause%>}#n
+\disclaimer{clause}#n
 \makedisclaimer#n
 \makedisclaimer*#n
-\keywords{%<mots clés dans la langue principale%>}{%<mots clés dans la langue secondaire%>}#n
+\keywords{<mots clés dans la langue principale>}{<mots clés dans la langue secondaire>}#n
 \makekeywords#n
 \makekeywords*#n
 \makelaboratory#n
 \makelaboratory*#n
-\dedication{%<dédicace%>}#n
+\dedication{dédicace}#n
 \makededications#n
 \makededications*#n
-\frontepigraph{%<épigraphe%>}{%<auteur%>}
-\frontepigraph[%<langue%>]{%<épigraphe%>}{%<auteur%>}
+\frontepigraph{épigraphe}{auteur}
+\frontepigraph[langue]{épigraphe}{auteur}
 #keyvals:\frontepigraph
 afrikaans
 bahasa
@@ -308,13 +308,13 @@ welsh
 \makefrontepigraphs#n
 \makefrontepigraphs*#n
 \begin{abstract}#n
-\begin{abstract}[%<intitulé alternatif%>]#n*
+\begin{abstract}[intitulé alternatif]#n*
 \end{abstract}#n
 \makeabstract#n
-\newglssymbol{%<label%>}{%<symbole%>}{%<nom%>}{%<description%>}#n
-\newglssymbol[%<classement%>]{%<label%>}{%<symbole%>}{%<nom%>}{%<description%>}#n
+\newglssymbol{label}{symbole}{nom}{description}#n
+\newglssymbol[classement]{label}{symbole}{nom}{description}#n
 \tableofcontents#n*
-\tableofcontents[%<précision(s)%>]#n*
+\tableofcontents[précision(s)]#n*
 #
 #keyvals:\tableofcontents
 depth=#part,chapter,section,subsection,subsubsection,paragraph,subparagraph
@@ -331,4 +331,4 @@ name=
 #
 # Customization
 #
-\expression{%<label%>}{%<valeur (en français)%>}{%<valeur (en anglais)%>}#n*
+\expression{label}{valeur (en français)}{valeur (en anglais)}#n*

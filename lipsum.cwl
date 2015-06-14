@@ -2,9 +2,9 @@
 \ChangeLipsumPar{arg}#*
 \lipsum
 \lipsum[num]
-\lipsum[%<num%>-%<num%>]
+\lipsum[num-num]
 \lipsum*
 \lipsum*[num]
-\lipsum*[%<num%>-%<num%>]
+\lipsum*[num-num]
 \setlipsumdefault{num}#*
-\setlipsumdefault{%<num%>-%<num%>}#*
+\setlipsumdefault{num-num}#*

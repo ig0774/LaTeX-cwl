@@ -251,7 +251,7 @@
 \inputlineno#*
 \it#*
 \item
-\item[%<text%>] %<description%>
+\item[text] <description>
 \iterate#*
 \itshape
 \kill#T
@@ -496,7 +496,7 @@
 \usepackage{package}
 \vdots
 \vector(xslope,yslope){length}#*/picture
-\verb|%<text%>|
+\verb|text|
 \verb#S
 \vline
 \vspace*{length}

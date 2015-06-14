@@ -95,6 +95,10 @@
 \end{overprint}
 \begin{actionenv}<action specification>
 \end{actionenv}
+\movie[options]{poster text}{movie filename}
+\movie{poster text}{movie filename}
+\hyperlinkmovie[options]{movie label}{text}
+\hyperlinkmovie{movie label}{text}
 \animate
 \animate<overlay specification>
 \animatevalue<start slide - end slide>{name}{start value}{end value}

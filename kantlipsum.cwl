@@ -4,7 +4,7 @@
 \kantdef{cmd}{num}#*
 \kantlipsum
 \kantlipsum[num]
-\kantlipsum[%<num%>-%<num%>]
+\kantlipsum[num-num]
 \kantlipsum*
 \kantlipsum*[num]
-\kantlipsum*[%<num%>-%<num%>]
+\kantlipsum*[num-num]

@@ -240,10 +240,10 @@
 \loadglsentries{file}#i
 \makeglossaries#n
 \newacronymhook#S
-\newglossaryentry{%<label%>}{name={%<name%>},description={%<description%>}}#l
-\longnewglossaryentry{%<label%>}{name={%<name%>}}{%<long description%>}#l
-\newacronym{%<label%>}{%<short%>}{%<long%>}#l
-\newacronym[options]{%<label%>}{%<short%>}}{%<long%>}}#l
+\newglossaryentry{label}{name={name},description={description}}#l
+\longnewglossaryentry{label}{name={name}}{long description}#l
+\newacronym{label}{short}{long}#l
+\newacronym[options]{label}{short}}{long}}#l
 \newglossary[log-ext]{name}{in-ext}{out-ext}{title}#*
 \newglossarystyle{arg1}{arg2}#*
 \noist#S

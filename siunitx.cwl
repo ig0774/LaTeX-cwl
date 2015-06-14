@@ -2,10 +2,10 @@
 \A#*
 \ampere
 \amu#*
-\ang[%<options%>]{%<degrees%>}
-\ang[%<options%>]{%<decimal number%>}
-\ang{%<degrees%>}
-\ang{%<decimal number%>}
+\ang[options]{degrees}
+\ang[options]{decimal number}
+\ang{degrees}
+\ang{decimal number}
 #keyvals:\ang
 add-arc-degree-zero
 add-arc-minute-zero
@@ -44,13 +44,13 @@ number-angle-product=
 \deca
 \deci
 \decibel
-\DeclareBinaryPrefix{%<prefix%>}{%<symbol%>}{%<power of 2%>}#d
-\DeclareSIPostPower{%<power macro%>}{%<number%>}#d
-\DeclareSIPrefix{%<prefix%>}{%<symbol%>}{%<power of 10%>}#d
-\DeclareSIPrePower{%<power macro%>}{%<number%>}#d
-\DeclareSIQualifier{%<qualifier%>}{%<symbol%>}#d
-\DeclareSIUnit[%<options%>]{%<unit%>}{%<definition%>}#d
-\DeclareSIUnit{%<unit%>}{%<definition%>}#d
+\DeclareBinaryPrefix{prefix}{symbol}{<power of 2>}#d
+\DeclareSIPostPower{power macro}{number}#d
+\DeclareSIPrefix{prefix}{symbol}{<power of 10>}#d
+\DeclareSIPrePower{power macro}{number}#d
+\DeclareSIQualifier{qualifier}{symbol}#d
+\DeclareSIUnit[options]{unit}{definition}#d
+\DeclareSIUnit{unit}{definition}#d
 \degreeCelsius
 \deka
 \dm#*
@@ -149,7 +149,7 @@ number-angle-product=
 \nm#*
 \nmol#*
 \ns#*
-\num[%<options%>]{%<number%>}
+\num[options]{number}
 #keyvals:\num
 add-decimal-zero#true,false
 add-integer-zero#true,false
@@ -195,17 +195,17 @@ output-product=
 output-quotient=
 quotient-mode=#symbol,fraction
 #endkeyvals
-\num{%<number%>}
-\numlist[%<options%>]{%<numbers%>}
-\numlist{%<numbers%>}
+\num{number}
+\numlist[options]{numbers}
+\numlist{numbers}
 #keyvals:\numlist
 list-final-separator=
 list-pair-separator=
 list-separator=
 range-phrase=
 #endkeyvals
-\numrange[%<options%>]{%<number1%>}{%<number2%>}
-\numrange{%<number2%>}{%<number2%>}
+\numrange[options]{number1}{number2}
+\numrange{number2}{number2}
 \nV#*
 \of
 \ohm
@@ -224,15 +224,15 @@ range-phrase=
 \ps#*
 \pV#*
 \radian
-\raiseto{%<power%>}
+\raiseto{power}
 \s#*
 \second
 \SendSettingsToPgf
-\SI[%<options%>]{%<value%>}[%<pre-unit%>]{%<unit commands%>}
-\SI[%<options%>]{%<value%>}{%<unit commands%>}
-\si{%<unit%>}
-\SI{%<value%>}[%<pre-unit%>]{%<unit commands%>}
-\SI{%<value%>}{%<unit commands%>}
+\SI[options]{value}[pre-unit]{unit commands}
+\SI[options]{value}{unit commands}
+\si{unit}
+\SI{value}[pre-unit]{unit commands}
+\SI{value}{unit commands}
 #keyvals:\SI
 mode=#math,text
 math-rm=
@@ -254,7 +254,7 @@ product-units=#brackets,brackets-power,power,repeat,single
 range-units=#brackets,repeat,single
 parse-units#true,false
 #endkeyvals
-\si[%<options%>]{%<unit%>}
+\si[options]{unit}
 #keyvals:\si
 bracket-unit-denominator#true,false
 forbid-literal-units#true,false
@@ -270,11 +270,11 @@ sticky-per#true,false
 #endkeyvals
 \siemens
 \sievert
-\SIlist{%<values%>}{%<unit commands%>}
-\SIlist[%<options%>]{%<values%>}{%<unit commands%>}
-\SIrange{%<value1%>}{%<value2%>}{%<unit commands%>}
-\SIrange[%<options%>]{%<value1%>}{%<value2%>}{%<unit commands%>}
-\sisetup{%<options%>}
+\SIlist{values}{unit commands}
+\SIlist[options]{values}{unit commands}
+\SIrange{value1}{value2}{unit commands}
+\SIrange[options]{value1}{value2}{unit commands}
+\sisetup{options}
 \SIUnitSymbolAngstrom
 \SIUnitSymbolArcminute
 \SIUnitSymbolArcsecond
@@ -292,7 +292,7 @@ sticky-per#true,false
 \TeV#*
 \THz#*
 \tonne
-\tothe{%<power%>}
+\tothe{power}
 \uA#*
 \ug#*
 \uL#*
@@ -313,3 +313,28 @@ sticky-per#true,false
 \zebi
 \zepto
 \zetta
+
+# Units derived from experiments
+\electronvolt
+\atomicmassunit
+\atomicmass
+
+# Defining new units
+\newunit{new unit command}{text}
+\newunit[options]{new unit command}{text}
+\renewunit{new unit command}{text}
+\renewunit[options]{new unit command}{text}
+\provideunit{new unit command}{text}
+\provideunit[options]{new unit command}{text}
+\newpower{power}{num}
+\newpower[post]{power}{num}
+\renewpower{power}{num}
+\renewpower[post]{power}{num}
+\providepower{power}{num}
+\providepower[post]{power}{num}
+\newprefix{prefix}{symbol}{powers-ten}
+\newprefix[binary]{prefix}{symbol}{powers-ten}
+\renewprefix{prefix}{symbol}{powers-ten}
+\renewprefix[binary]{prefix}{symbol}{powers-ten}
+\provideprefix{prefix}{symbol}{powers-ten}
+\provideprefix[binary]{prefix}{symbol}{powers-ten}

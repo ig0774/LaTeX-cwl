@@ -4,11 +4,11 @@
 
 \metricsymbols{symbols}
 \metricsymbols*{symbols}
-\metricsymbols[%<number%>=%<higlighting%>]{symbols}
-\metricsymbols*[%<number%>=%<higlighting%>]{symbols}
+\metricsymbols[number=higlighting]{symbols}
+\metricsymbols*[number=higlighting]{symbols}
 
 \metrics{symbols}{syllables}
-\metrics[%<number%>=%<higlighting%>]{symbols}{syllables}
+\metrics[number=higlighting]{symbols}{syllables}
 
 \acct{vowel}
 \brv{vowel}
