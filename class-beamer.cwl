@@ -40,6 +40,7 @@
 \begin{alertenv}
 \end{alertenv}
 \begin{block}<action specification>{block title}<action specification>
+\begin{block}{title}
 \end{block}
 \begin{alertblock}<action specification>{block title}<action specification>
 \end{alertblock}
@@ -51,9 +52,11 @@
 \begin{definition}<action specification>[additional text]<action specification>
 \begin{definition}<action specification><action specification>
 \end{definition}
+\begin{example}
 \begin{example}<action specification>[additional text]<action specification>
 \begin{example}<action specification><action specification>
 \end{example}
+\begin{proof}
 \begin{proof}<action specification>[proof name]<action specification>
 \begin{proof}<action specification><action specification>
 \end{proof}
@@ -92,10 +95,6 @@
 \end{overprint}
 \begin{actionenv}<action specification>
 \end{actionenv}
-\movie[options]{poster text}{movie filename}
-\movie{poster text}{movie filename}
-\hyperlinkmovie[options]{movie label}{text}
-\hyperlinkmovie{movie label}{text}
 \animate
 \animate<overlay specification>
 \animatevalue<start slide - end slide>{name}{start value}{end value}
@@ -227,7 +226,7 @@
 \insertappendixendpage
 \insertdocumentstartpage
 \insertdocumentendpage
-\setbeamersize{}
+\setbeamersize{sizes}
 \insertsectionhead
 \insertsectionheadnumber
 \insertpartheadnumber
@@ -274,6 +273,7 @@
 \author{author names}
 \institute[short institute]{institute}
 \institute{institute}
+\inst{parameter's institute}
 \date[short date]{date}
 \date{date}
 \titlegraphic{text}
@@ -403,6 +403,7 @@
 \onslide*<overlay specification>{text}
 \onslide<overlay specification>
 \onslide
+\only<overlay specification>{text}
 \only<overlay specification>{text}<overlay specification>
 \only{text}<overlay specification>
 \only{text}
@@ -430,16 +431,16 @@
 \action<action specification>{text}
 \action{text}
 \beamerdefaultoverlayspecification{default overlay specification}
-\usetheme[options]{name list}
-\usetheme{name list}
+\usetheme[options]{beamertheme}
+\usetheme{beamertheme}#u
 \usecolortheme[options]{name list}
-\usecolortheme{name list}
+\usecolortheme{name list}#u
 \usefonttheme[options]{name}
-\usefonttheme{name}
+\usefonttheme{name}#u
 \useinnertheme[options]{name}
-\useinnertheme{name}
+\useinnertheme{name}#u
 \useoutertheme[options]{name}
-\useoutertheme{name}
+\useoutertheme{name}#u
 \addheadbox{beamer color}{box template}
 \addfootbox{beamer color}{box template}
 \includeonlyframes{frame label list}

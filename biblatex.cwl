@@ -5,9 +5,9 @@
 
 \ExecuteBibliographyOptions{key=value, ...}
 
-\bibliography{bib ﬁles}
+\bibliography{bib files}
 
-\addbibresource{bibliographic resource}
+\addbibresource{bibliographic resource}#b
 \addbibresource[options]{bibliographic resource}
 \addglobalbib{resource}
 \addglobalbib[options]{resource}
@@ -25,14 +25,14 @@
 \printshorthands
 \printshorthands[key=value, ...]
 \begin{refsection}
-\begin{refsection}[bib ﬁles]
+\begin{refsection}[bib files]
 \end{refsection}
-\newrefsection[bib ﬁles]
+\newrefsection[bib files]
 \begin{refsegment}
 \end{refsegment}
 \newrefsegment
 \DeclareBibliographyCategory{category}
-\addtocategory{category}{key}
+\addtocategory{category}{bibid}
 \defbibheading{name}{code}
 \defbibnote{name}{text}
 \defbibfilter{name}{code}
@@ -41,295 +41,295 @@
 \keyword{keyword}
 \category{category}
 
-\cite[prenote][postnote]{key}
-\cite[postnote]{key}
-\cite{key}
-\Cite[prenote][postnote]{key}
-\Cite[postnote]{key}
-\Cite{key}
+\cite[prenote][postnote]{bibid}#c
+\cite[postnote]{bibid}#c
+\cite{bibid}#c
+\Cite[prenote][postnote]{bibid}#c
+\Cite[postnote]{bibid}#c
+\Cite{bibid}#c
 
-\parencite[prenote][postnote]{key}
-\parencite[postnote]{key}
-\parencite{key}
-\Parencite[prenote][postnote]{key}
-\Parencite[postnote]{key}
-\Parencite{key}
+\parencite[prenote][postnote]{bibid}#c
+\parencite[postnote]{bibid}#c
+\parencite{bibid}#c
+\Parencite[prenote][postnote]{bibid}#c
+\Parencite[postnote]{bibid}#c
+\Parencite{bibid}#c
 
-\footcite[prenote][postnote]{key}
-\footcite[postnote]{key}
-\footcite{key}
-\Footcite[prenote][postnote]{key}
-\Footcite[postnote]{key}
-\Footcite{key}
+\footcite[prenote][postnote]{bibid}#c
+\footcite[postnote]{bibid}#c
+\footcite{bibid}#c
+\Footcite[prenote][postnote]{bibid}#c
+\Footcite[postnote]{bibid}#c
+\Footcite{bibid}#c
 
-\textcite[prenote][postnote]{key}
-\textcite[postnote]{key}
-\textcite{key}
-\Textcite[prenote][postnote]{key}
-\Textcite[postnote]{key}
-\Textcite{key}
+\textcite[prenote][postnote]{bibid}#c
+\textcite[postnote]{bibid}#c
+\textcite{bibid}#c
+\Textcite[prenote][postnote]{bibid}#c
+\Textcite[postnote]{bibid}#c
+\Textcite{bibid}#c
 
-\cite*[prenote][postnote]{key}
-\cite*[postnote]{key}
-\cite*{key}
+\cite*[prenote][postnote]{bibid}#c
+\cite*[postnote]{bibid}#c
+\cite*{bibid}#c
 
-\parencite*[prenote][postnote]{key}
-\parencite*[postnote]{key}
-\parencite*{key}
+\parencite*[prenote][postnote]{bibid}#c
+\parencite*[postnote]{bibid}#c
+\parencite*{bibid}#c
 
-\supercite{key}
+\supercite{bibid}#c
 
-\cites{key}{key}
-\cites(post){key}{key}
-\cites(pre)(post){key}{key}
-\cites(pre)(post)[post]{key}[post]{key}
-\cites(pre)(post)[pre][post]{key}[pre][post]{key}
-\cites[post]{key}[post]{key}
-\cites[pre][post]{key}[pre][post]{key}
-\cites(pre)(post)[pre][post]{key}[pre][post]{key}
+\cites{bibid}{bibid}#c
+\cites(post){bibid}{bibid}#c
+\cites(pre)(post){bibid}{bibid}#c
+\cites(pre)(post)[post]{bibid}[post]{bibid}#c
+\cites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\cites[post]{bibid}[post]{bibid}#c
+\cites[pre][post]{bibid}[pre][post]{bibid}#c
+\cites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\Cites{key}{key}
-\Cites(post){key}{key}
-\Cites(pre)(post){key}{key}
-\Cites(pre)(post)[post]{key}[post]{key}
-\Cites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Cites[post]{key}[post]{key}
-\Cites[pre][post]{key}[pre][post]{key}
-\Cites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Cites{bibid}{bibid}#c
+\Cites(post){bibid}{bibid}#c
+\Cites(pre)(post){bibid}{bibid}#c
+\Cites(pre)(post)[post]{bibid}[post]{bibid}#c
+\Cites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\Cites[post]{bibid}[post]{bibid}#c
+\Cites[pre][post]{bibid}[pre][post]{bibid}#c
+\Cites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\parencites{key}{key}
-\parencites(post){key}{key}
-\parencites(pre)(post){key}{key}
-\parencites(pre)(post)[post]{key}[post]{key}
-\parencites(pre)(post)[pre][post]{key}[pre][post]{key}
-\parencites[post]{key}[post]{key}
-\parencites[pre][post]{key}[pre][post]{key}
-\parencites(pre)(post)[pre][post]{key}[pre][post]{key}
+\parencites{bibid}{bibid}#c
+\parencites(post){bibid}{bibid}#c
+\parencites(pre)(post){bibid}{bibid}#c
+\parencites(pre)(post)[post]{bibid}[post]{bibid}#c
+\parencites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\parencites[post]{bibid}[post]{bibid}#c
+\parencites[pre][post]{bibid}[pre][post]{bibid}#c
+\parencites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\Parencites{key}{key}
-\Parencites(post){key}{key}
-\Parencites(pre)(post){key}{key}
-\Parencites(pre)(post)[post]{key}[post]{key}
-\Parencites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Parencites[post]{key}[post]{key}
-\Parencites[pre][post]{key}[pre][post]{key}
-\Parencites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Parencites{bibid}{bibid}#c
+\Parencites(post){bibid}{bibid}#c
+\Parencites(pre)(post){bibid}{bibid}#c
+\Parencites(pre)(post)[post]{bibid}[post]{bibid}#c
+\Parencites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\Parencites[post]{bibid}[post]{bibid}#c
+\Parencites[pre][post]{bibid}[pre][post]{bibid}#c
+\Parencites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\textcites{key}{key}
-\textcites(post){key}{key}
-\textcites(pre)(post){key}{key}
-\textcites(pre)(post)[post]{key}[post]{key}
-\textcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\textcites[post]{key}[post]{key}
-\textcites[pre][post]{key}[pre][post]{key}
-\textcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\textcites{bibid}{bibid}#c
+\textcites(post){bibid}{bibid}#c
+\textcites(pre)(post){bibid}{bibid}#c
+\textcites(pre)(post)[post]{bibid}[post]{bibid}#c
+\textcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\textcites[post]{bibid}[post]{bibid}#c
+\textcites[pre][post]{bibid}[pre][post]{bibid}#c
+\textcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\Textcites{key}{key}
-\Textcites(post){key}{key}
-\Textcites(pre)(post){key}{key}
-\Textcites(pre)(post)[post]{key}[post]{key}
-\Textcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Textcites[post]{key}[post]{key}
-\Textcites[pre][post]{key}[pre][post]{key}
-\Textcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Textcites{bibid}{bibid}#c
+\Textcites(post){bibid}{bibid}#c
+\Textcites(pre)(post){bibid}{bibid}#c
+\Textcites(pre)(post)[post]{bibid}[post]{bibid}#c
+\Textcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\Textcites[post]{bibid}[post]{bibid}#c
+\Textcites[pre][post]{bibid}[pre][post]{bibid}#c
+\Textcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\footcites{key}{key}
-\footcites(post){key}{key}
-\footcites(pre)(post){key}{key}
-\footcites(pre)(post)[post]{key}[post]{key}
-\footcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\footcites[post]{key}[post]{key}
-\footcites[pre][post]{key}[pre][post]{key}
-\footcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\footcites{bibid}{bibid}#c
+\footcites(post){bibid}{bibid}#c
+\footcites(pre)(post){bibid}{bibid}#c
+\footcites(pre)(post)[post]{bibid}[post]{bibid}#c
+\footcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\footcites[post]{bibid}[post]{bibid}#c
+\footcites[pre][post]{bibid}[pre][post]{bibid}#c
+\footcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\Footcites{key}{key}
-\Footcites(post){key}{key}
-\Footcites(pre)(post){key}{key}
-\Footcites(pre)(post)[post]{key}[post]{key}
-\Footcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Footcites[post]{key}[post]{key}
-\Footcites[pre][post]{key}[pre][post]{key}
-\Footcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Footcites{bibid}{bibid}#c
+\Footcites(post){bibid}{bibid}#c
+\Footcites(pre)(post){bibid}{bibid}#c
+\Footcites(pre)(post)[post]{bibid}[post]{bibid}#c
+\Footcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\Footcites[post]{bibid}[post]{bibid}#c
+\Footcites[pre][post]{bibid}[pre][post]{bibid}#c
+\Footcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\supercites{key}{key}
-\supercites(post){key}{key}
-\supercites(pre)(post){key}{key}
-\supercites(pre)(post)[post]{key}[post]{key}
-\supercites(pre)(post)[pre][post]{key}[pre][post]{key}
-\supercites[post]{key}[post]{key}
-\supercites[pre][post]{key}[pre][post]{key}
-\supercites(pre)(post)[pre][post]{key}[pre][post]{key}
+\supercites{bibid}{bibid}#c
+\supercites(post){bibid}{bibid}#c
+\supercites(pre)(post){bibid}{bibid}#c
+\supercites(pre)(post)[post]{bibid}[post]{bibid}#c
+\supercites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\supercites[post]{bibid}[post]{bibid}#c
+\supercites[pre][post]{bibid}[pre][post]{bibid}#c
+\supercites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\autocite[prenote][postnote]{key}
-\autocite[postnote]{key}
-\autocite{key}
+\autocite[prenote][postnote]{bibid}#c
+\autocite[postnote]{bibid}#c
+\autocite{bibid}#c
 
-\Autocite[prenote][postnote]{key}
-\Autocite[postnote]{key}
-\Autocite{key}
+\Autocite[prenote][postnote]{bibid}#c
+\Autocite[postnote]{bibid}#c
+\Autocite{bibid}#c
 
-\autocite*[prenote][postnote]{key}
-\autocite*[postnote]{key}
-\autocite*{key}
+\autocite*[prenote][postnote]{bibid}#c
+\autocite*[postnote]{bibid}#c
+\autocite*{bibid}#c
 
-\Autocite*[prenote][postnote]{key}
-\Autocite*[postnote]{key}
-\Autocite*{key}
+\Autocite*[prenote][postnote]{bibid}#c
+\Autocite*[postnote]{bibid}#c
+\Autocite*{bibid}#c
 
-\autocites{key}{key}
-\autocites(post){key}{key}
-\autocites(pre)(post){key}{key}
-\autocites(pre)(post)[post]{key}[post]{key}
-\autocites(pre)(post)[pre][post]{key}[pre][post]{key}
-\autocites[post]{key}[post]{key}
-\autocites[pre][post]{key}[pre][post]{key}
-\autocites(pre)(post)[pre][post]{key}[pre][post]{key}
+\autocites{bibid}{bibid}#c
+\autocites(post){bibid}{bibid}#c
+\autocites(pre)(post){bibid}{bibid}#c
+\autocites(pre)(post)[post]{bibid}[post]{bibid}#c
+\autocites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\autocites[post]{bibid}[post]{bibid}#c
+\autocites[pre][post]{bibid}[pre][post]{bibid}#c
+\autocites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\Autocites{key}{key}
-\Autocites(post){key}{key}
-\Autocites(pre)(post){key}{key}
-\Autocites(pre)(post)[post]{key}[post]{key}
-\Autocites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Autocites[post]{key}[post]{key}
-\Autocites[pre][post]{key}[pre][post]{key}
-\Autocites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Autocites{bibid}{bibid}#c
+\Autocites(post){bibid}{bibid}#c
+\Autocites(pre)(post){bibid}{bibid}#c
+\Autocites(pre)(post)[post]{bibid}[post]{bibid}#c
+\Autocites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\Autocites[post]{bibid}[post]{bibid}#c
+\Autocites[pre][post]{bibid}[pre][post]{bibid}#c
+\Autocites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\smartcite[prenote][postnote]{key}
-\smartcite[postnote]{key}
-\smartcite{key}
+\smartcite[prenote][postnote]{bibid}#c
+\smartcite[postnote]{bibid}#c
+\smartcite{bibid}#c
 
-\Smartcite[prenote][postnote]{key}
-\Smartcite[postnote]{key}
-\Smartcite{key}
+\Smartcite[prenote][postnote]{bibid}#c
+\Smartcite[postnote]{bibid}#c
+\Smartcite{bibid}#c
 
-\smartcites{key}{key}
-\smartcites(post){key}{key}
-\smartcites(pre)(post){key}{key}
-\smartcites(pre)(post)[post]{key}[post]{key}
-\smartcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\smartcites[post]{key}[post]{key}
-\smartcites[pre][post]{key}[pre][post]{key}
-\smartcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\smartcites{bibid}{bibid}#c
+\smartcites(post){bibid}{bibid}#c
+\smartcites(pre)(post){bibid}{bibid}#c
+\smartcites(pre)(post)[post]{bibid}[post]{bibid}#c
+\smartcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\smartcites[post]{bibid}[post]{bibid}#c
+\smartcites[pre][post]{bibid}[pre][post]{bibid}#c
+\smartcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\Smartcites{key}{key}
-\Smartcites(post){key}{key}
-\Smartcites(pre)(post){key}{key}
-\Smartcites(pre)(post)[post]{key}[post]{key}
-\Smartcites(pre)(post)[pre][post]{key}[pre][post]{key}
-\Smartcites[post]{key}[post]{key}
-\Smartcites[pre][post]{key}[pre][post]{key}
-\Smartcites(pre)(post)[pre][post]{key}[pre][post]{key}
+\Smartcites{bibid}{bibid}#c
+\Smartcites(post){bibid}{bibid}#c
+\Smartcites(pre)(post){bibid}{bibid}#c
+\Smartcites(pre)(post)[post]{bibid}[post]{bibid}#c
+\Smartcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
+\Smartcites[post]{bibid}[post]{bibid}#c
+\Smartcites[pre][post]{bibid}[pre][post]{bibid}#c
+\Smartcites(pre)(post)[pre][post]{bibid}[pre][post]{bibid}#c
 
-\svolcite{volume}{key}
-\svolcite[prenote]{volume}{key}
-\svolcite{volume}[page]{key}
-\svolcite[prenote]{volume}[page]{key}
+\svolcite{volume}{bibid}#c
+\svolcite[prenote]{volume}{bibid}#c
+\svolcite{volume}[page]{bibid}#c
+\svolcite[prenote]{volume}[page]{bibid}#c
 
-\Svolcite{volume}{key}
-\Svolcite[prenote]{volume}{key}
-\Svolcite{volume}[page]{key}
-\Svolcite[prenote]{volume}[page]{key}
+\Svolcite{volume}{bibid}#c
+\Svolcite[prenote]{volume}{bibid}#c
+\Svolcite{volume}[page]{bibid}#c
+\Svolcite[prenote]{volume}[page]{bibid}#c
 
-\tvolcite{volume}{key}
-\tvolcite[prenote]{volume}{key}
-\tvolcite{volume}[page]{key}
-\tvolcite[prenote]{volume}[page]{key}
+\tvolcite{volume}{bibid}#c
+\tvolcite[prenote]{volume}{bibid}#c
+\tvolcite{volume}[page]{bibid}#c
+\tvolcite[prenote]{volume}[page]{bibid}#c
 
-\Tvolcite{volume}{key}
-\Tvolcite[prenote]{volume}{key}
-\Tvolcite{volume}[page]{key}
-\Tvolcite[prenote]{volume}[page]{key}
+\Tvolcite{volume}{bibid}#c
+\Tvolcite[prenote]{volume}{bibid}#c
+\Tvolcite{volume}[page]{bibid}#c
+\Tvolcite[prenote]{volume}[page]{bibid}#c
 
-\avolcite{volume}{key}
-\avolcite[prenote]{volume}{key}
-\avolcite{volume}[page]{key}
-\avolcite[prenote]{volume}[page]{key}
+\avolcite{volume}{bibid}#c
+\avolcite[prenote]{volume}{bibid}#c
+\avolcite{volume}[page]{bibid}#c
+\avolcite[prenote]{volume}[page]{bibid}#c
 
-\Avolcite{volume}{key}
-\Avolcite[prenote]{volume}{key}
-\Avolcite{volume}[page]{key}
-\Avolcite[prenote]{volume}[page]{key}
+\Avolcite{volume}{bibid}#c
+\Avolcite[prenote]{volume}{bibid}#c
+\Avolcite{volume}[page]{bibid}#c
+\Avolcite[prenote]{volume}[page]{bibid}#c
 
-\notecite{volume}{key}
-\notecite[prenote]{volume}{key}
-\notecite{volume}[postnote]{key}
-\notecite[prenote]{volume}[postnote]{key}
+\notecite{volume}{bibid}#c
+\notecite[prenote]{volume}{bibid}#c
+\notecite{volume}[postnote]{bibid}#c
+\notecite[prenote]{volume}[postnote]{bibid}#c
 
-\Notecite{volume}{key}
-\Notecite[prenote]{volume}{key}
-\Notecite{volume}[postnote]{key}
-\Notecite[prenote]{volume}[postnote]{key}
+\Notecite{volume}{bibid}#c
+\Notecite[prenote]{volume}{bibid}#c
+\Notecite{volume}[postnote]{bibid}#c
+\Notecite[prenote]{volume}[postnote]{bibid}#c
 
-\pnotecite{volume}{key}
-\pnotecite[prenote]{volume}{key}
-\pnotecite{volume}[postnote]{key}
-\pnotecite[prenote]{volume}[postnote]{key}
+\pnotecite{volume}{bibid}#c
+\pnotecite[prenote]{volume}{bibid}#c
+\pnotecite{volume}[postnote]{bibid}#c
+\pnotecite[prenote]{volume}[postnote]{bibid}#c
 
-\Pnotecite{volume}{key}
-\Pnotecite[prenote]{volume}{key}
-\Pnotecite{volume}[postnote]{key}
-\Pnotecite[prenote]{volume}[postnote]{key}
+\Pnotecite{volume}{bibid}#c
+\Pnotecite[prenote]{volume}{bibid}#c
+\Pnotecite{volume}[postnote]{bibid}#c
+\Pnotecite[prenote]{volume}[postnote]{bibid}#c
 
-\fnotecite{volume}{key}
-\fnotecite[prenote]{volume}{key}
-\fnotecite{volume}[postnote]{key}
-\fnotecite[prenote]{volume}[postnote]{key}
+\fnotecite{volume}{bibid}#c
+\fnotecite[prenote]{volume}{bibid}#c
+\fnotecite{volume}[postnote]{bibid}#c
+\fnotecite[prenote]{volume}[postnote]{bibid}#c
 
-\citeauthor[prenote][postnote]{key}
-\citeauthor[postnote]{key}
-\citeauthor{key}
+\citeauthor[prenote][postnote]{bibid}#c
+\citeauthor[postnote]{bibid}#c
+\citeauthor{bibid}#c
 
-\citedate[prenote][postnote]{key}
-\citedate[postnote]{key}
-\citedate{key}
+\citedate[prenote][postnote]{bibid}#c
+\citedate[postnote]{bibid}#c
+\citedate{bibid}#c
 
-\Citeauthor[prenote][postnote]{key}
-\Citeauthor[postnote]{key}
-\Citeauthor{key}
+\Citeauthor[prenote][postnote]{bibid}#c
+\Citeauthor[postnote]{bibid}#c
+\Citeauthor{bibid}#c
 
-\citetitle[prenote][postnote]{key}
-\citetitle[postnote]{key}
-\citetitle{key}
+\citetitle[prenote][postnote]{bibid}#c
+\citetitle[postnote]{bibid}#c
+\citetitle{bibid}#c
 
-\citetitle*[prenote][postnote]{key}
-\citetitle*[postnote]{key}
-\citetitle*{key}
+\citetitle*[prenote][postnote]{bibid}#c
+\citetitle*[postnote]{bibid}#c
+\citetitle*{bibid}#c
 
-\citeyear[prenote][postnote]{key}
-\citeyear[postnote]{key}
-\citeyear{key}
+\citeyear[prenote][postnote]{bibid}#c
+\citeyear[postnote]{bibid}#c
+\citeyear{bibid}#c
 
-\citeurl[prenote][postnote]{key}
-\citeurl[postnote]{key}
-\citeurl{key}
+\citeurl[prenote][postnote]{bibid}#c
+\citeurl[postnote]{bibid}#c
+\citeurl{bibid}#c
 
-\nocite{key}
+\nocite{bibid}#c
 
-\fullcite[prenote][postnote]{key}
-\fullcite[postnote]{key}
-\fullcite{key}
+\fullcite[prenote][postnote]{bibid}#c
+\fullcite[postnote]{bibid}#c
+\fullcite{bibid}#c
 
-\footfullcite[prenote][postnote]{key}
-\footfullcite[postnote]{key}
-\footfullcite{key}
+\footfullcite[prenote][postnote]{bibid}#c
+\footfullcite[postnote]{bibid}#c
+\footfullcite{bibid}#c
 
-\citename[prenote][postnote]{key}[format]{name list}
-\citename[postnote]{key}[format]{name list}
-\citename[postnote]{key}{name list}
-\citename{key}[format]{name list}
-\citename{key}{name list}
+\citename[prenote][postnote]{bibid}[format]{name list}
+\citename[postnote]{bibid}[format]{name list}
+\citename[postnote]{bibid}{name list}
+\citename{bibid}[format]{name list}
+\citename{bibid}{name list}#c
 
-\citelist[prenote][postnote]{key}[format]{literallist}
-\citelist[postnote]{key}[format]{literal list}
-\citelist[postnote]{key}{literal list}
-\citelist{key}[format]{literal list}
-\citelist{key}{literal list}
+\citelist[prenote][postnote]{bibid}[format]{literallist}
+\citelist[postnote]{bibid}[format]{literal list}
+\citelist[postnote]{bibid}{literal list}
+\citelist{bibid}[format]{literal list}
+\citelist{bibid}{literal list}#c
 
-\citefield[prenote][postnote]{key}[format]{field}
-\citefield[postnote]{key}[format]{field}
-\citefield[postnote]{key}{field}
-\citefield{key}[format]{field}
-\citefield{key}{field}
+\citefield[prenote][postnote]{bibid}[format]{field}
+\citefield[postnote]{bibid}[format]{field}
+\citefield[postnote]{bibid}{field}
+\citefield{bibid}[format]{field}
+\citefield{bibid}{field}#c
 
 \citereset
 \citereset*
@@ -343,11 +343,11 @@
 \RN{integer}
 \Rn{integer}
 
-\DefineBibliographyStrings{language}{deﬁnitions}
+\DefineBibliographyStrings{language}{definitions}
 \DefineBibliographyExtras{language}{code}
 \UndefineBibliographyExtras{language}{code}
 \DefineHyphenationExceptions{language}{text}
-\NewBibliographyString{key}
+\NewBibliographyString{bibid}#c
 
 \bibsetup
 \bibfont
@@ -420,4 +420,3 @@ smartand # counter
 
 # memoir class
 \ifmemoirbibintoc{true}{false}
-

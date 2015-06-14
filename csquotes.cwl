@@ -1,141 +1,244 @@
-# csquotes.sty
-# Chris 01/09/2013
+# csquotes package, available from ctan
+# commands for csquotes users
+# dbitouze, 14.09.2013
 
-# Basic Interface
 \enquote{text}
 \enquote*{text}
 
-\foreignquote{lang}{text}
-\foreignquote*{lang}{text}
+\foreignquote{language}{text}
+\foreignquote*{language}{text}
 
-\hyphenquote{lang}{text}
-\hyphenquote*{lang}{text}
+\hyphenquote{language}{text}#*
+\hyphenquote*{language}{text}#*
 
-\textquote[cite][punct]{text}tpunct
-\textquote*[cite][punct]{text}tpunct
+\textquote[manual citation][punct]{text}
+\textquote*[manual citation][punct]{text}
 
-\foreigntextquote{lang}[cite][punct]{text}tpunct
-\foreigntextquote*{lang}[cite][punct]{text}tpunct
+\foreigntextquote{language}{text}
+\foreigntextquote*{language}{text}#*
+\foreigntextquote{language}[manual citation]{text}
+\foreigntextquote*{language}[manual citation]{text}#*
+\foreigntextquote{language}[][punct]{text}#*
+\foreigntextquote*{language}[][punct]{text}#*
+\foreigntextquote{language}[manual citation][punct]{text}#*
+\foreigntextquote*{language}[manual citation][punct]{text}#*
 
-\hyphentextquote{lang}[cite][punct]{text}tpunct
-\hyphentextquote*{lang}[cite][punct]{text}tpunct
+\hyphentextquote{language}{text}#*
+\hyphentextquote*{language}{text}#*
+\hyphentextquote{language}[manual citation]{text}#*
+\hyphentextquote*{language}[manual citation]{text}#*
+\hyphentextquote{language}[][punct]{text}#*
+\hyphentextquote*{language}[][punct]{text}#*
+\hyphentextquote{language}[manual citation][punct]{text}#*
+\hyphentextquote*{language}[manual citation][punct]{text}#*
 
-\blockquote[cite][punct]{text}tpunct
-\foreignblockquote{lang}[cite][punct]{text}tpunct
+\blockquote{text}
+\blockquote[manual citation]{text}
+\blockquote[][punct]{text}#*
+\blockquote[manual citation][punct]{text}#*
 
-\hyphenblockquote{lang}[cite][punct]{text}tpunct
-\hybridblockquote{lang}[cite][punct]{text}tpunct
+\foreignblockquote{language}{text}
+\foreignblockquote*{language}{text}#*
+\foreignblockquote{language}[manual citation]{text}
+\foreignblockquote*{language}[manual citation]{text}#*
+\foreignblockquote{language}[][punct]{text}#*
+\foreignblockquote*{language}[][punct]{text}#*
+\foreignblockquote{language}[manual citation][punct]{text}#*
+\foreignblockquote*{language}[manual citation][punct]{text}#*
 
-\setquotestyle[variant]{style}
-\setquotestyle{alias}
-\setquotestyle*
+\hyphenblockquote{language}{text}#*
+\hyphenblockquote*{language}{text}#*
+\hyphenblockquote{language}[manual citation]{text}#*
+\hyphenblockquote*{language}[manual citation]{text}#*
+\hyphenblockquote{language}[][punct]{text}#*
+\hyphenblockquote*{language}[][punct]{text}#*
+\hyphenblockquote{language}[manual citation][punct]{text}#*
+\hyphenblockquote*{language}[manual citation][punct]{text}#*
 
-# Active Quotes
+\hybridblockquote{language}{text}#*
+\hybridblockquote*{language}{text}#*
+\hybridblockquote{language}[manual citation]{text}#*
+\hybridblockquote*{language}[manual citation]{text}#*
+\hybridblockquote{language}[][punct]{text}#*
+\hybridblockquote*{language}[][punct]{text}#*
+\hybridblockquote{language}[manual citation][punct]{text}#*
+\hybridblockquote*{language}[manual citation][punct]{text}#*
 
-\MakeOuterQuote{character}
-\MakeInnerQuote{character}
+\setquotestyle{style}#*
+\setquotestyle[variant]{style}#*
+\setquotestyle{alias}#*
+\setquotestyle*#*
 
-\MakeAutoQuote{character 1}{character 2}
-\MakeAutoQuote*{character 1}{character 2}
+\MakeOuterQuote{character}#*
+\MakeInnerQuote{character}#*
 
-\MakeForeignQuote{lang}{character 1}{character 2}
-\MakeForeignQuote*{lang}{character 1}{character 2}
+\MakeAutoQuote{character 1}{character 2}#*
+\MakeAutoQuote*{character 1}{character 2}#*
 
-\MakeHyphenQuote{lang}{character 1}{character 2}
-\MakeHyphenQuote*{lang}{character 1}{character 2}
+\MakeForeignQuote{language}{character 1}{character 2}#*
+\MakeForeignQuote*{language}{character 1}{character 2}#*
 
-\MakeBlockQuote{character 1}{delimiter}{character 2}
+\MakeHyphenQuote{language}{character 1}{character 2}#*
+\MakeHyphenQuote*{language}{character 1}{character 2}#*
 
-\MakeForeignBlockQuote{lang}{character 1}{delimiter}{character 2}
-\MakeHyphenBlockQuote{lang}{character 1}{delimiter}{character 2}
-\MakeHybridBlockQuote{lang}{character 1}{delimiter}{character 2}
+\MakeBlockQuote{character 1}{delimiter}{character 2}#*
 
-\EnableQuotes
-\DisableQuotes
-\VerbatimQuotes
-\DeleteQuotes
+\MakeForeignBlockQuote{language}{character 1}{delimiter}{character 2}#*
 
-# Integrated Interface
+\MakeHyphenBlockQuote{language}{character 1}{delimiter}{character 2}#*
 
-\textcquote[prenote][postnote]{key}[punct]{text}tpunct
-\textcquote*[prenote][postnote]{key}[punct]{text}tpunct
+\MakeHybridBlockQuote{language}{character 1}{delimiter}{character 2}#*
 
-\foreigntextcquote{lang}[prenote][postnote]{key}[punct]{text}tpunct
-\foreigntextcquote*{lang}[prenote][postnote]{key}[punct]{text}tpunct
+\EnableQuotes#*
+\DisableQuotes#*
+\VerbatimQuotes#*
+\DeleteQuotes#*
 
-\hyphentextcquote{lang}[prenote][postnote]{key}[punct]{text}tpunct
-\hyphentextcquote*{lang}[prenote][postnote]{key}[punct]{text}tpunct
+\textcquote{bibid}{text}#C
+\textcquote[prenote]{bibid}{text}#C
+#\textcquote[][postnote]{bibid}{text}#*C
+#\textcquote[prenote][postnote]{bibid}{text}#*C
+#\textcquote{bibid}[punct]{text}#*C
+#\textcquote[prenote]{bibid}[punct]{text}#*C
+#\textcquote[][postnote]{bibid}[punct]{text}#*C
+#\textcquote[prenote][postnote]{bibid}[punct]{text}#*C
+\textcquote*{bibid}{text}#C
+\textcquote*[prenote]{bibid}{text}#C
+#\textcquote*[][postnote]{bibid}{text}#*C
+#\textcquote*[prenote][postnote]{bibid}{text}#*C
+#\textcquote*{bibid}[punct]{text}#*C
+#\textcquote*[prenote]{bibid}[punct]{text}#*C
+#\textcquote*[][postnote]{bibid}[punct]{text}#*C
+#\textcquote*[prenote][postnote]{bibid}[punct]{text}#*C
 
-\blockcquote[prenote][postnote]{key}[punct]{text}tpunct
+\foreigntextcquote{language}{bibid}{text}#C
+\foreigntextcquote{language}[prenote]{bibid}{text}#C
+#\foreigntextcquote{language}[][postnote]{bibid}{text}#*C
+#\foreigntextcquote{language}[prenote][postnote]{bibid}{text}#*C
+#\foreigntextcquote{language}{bibid}[punct]{text}#*C
+#\foreigntextcquote{language}[prenote]{bibid}[punct]{text}#*C
+#\foreigntextcquote{language}[][postnote]{bibid}[punct]{text}#*C
+#\foreigntextcquote{language}[prenote][postnote]{bibid}[punct]{text}#*C
+\foreigntextcquote{language}*{bibid}{text}#C
+\foreigntextcquote{language}*[prenote]{bibid}{text}#C
+#\foreigntextcquote{language}*[][postnote]{bibid}{text}#*C
+#\foreigntextcquote{language}*[prenote][postnote]{bibid}{text}#*C
+#\foreigntextcquote{language}*{bibid}[punct]{text}#*C
+#\foreigntextcquote{language}*[prenote]{bibid}[punct]{text}#*C
+#\foreigntextcquote{language}*[][postnote]{bibid}[punct]{text}#*C
+#\foreigntextcquote{language}*[prenote][postnote]{bibid}[punct]{text}#*C
 
-\foreignblockcquote{lang}[prenote][postnote]{key}[punct]{text}tpunct
-\hyphenblockcquote{lang}[prenote][postnote]{key}[punct]{text}tpunct
-\hybridblockcquote{lang}[prenote][postnote]{key}[punct]{text}tpunct
+\hyphentextcquote{language}{bibid}{text}#C
+\hyphentextcquote{language}[prenote]{bibid}{text}#C
+#\hyphentextcquote{language}[][postnote]{bibid}{text}#*C
+#\hyphentextcquote{language}[prenote][postnote]{bibid}{text}#*C
+#\hyphentextcquote{language}{bibid}[punct]{text}#*C
+#\hyphentextcquote{language}[prenote]{bibid}[punct]{text}#*C
+#\hyphentextcquote{language}[][postnote]{bibid}[punct]{text}#*C
+#\hyphentextcquote{language}[prenote][postnote]{bibid}[punct]{text}#*C
+\hyphentextcquote{language}*{bibid}{text}#C
+\hyphentextcquote{language}*[prenote]{bibid}{text}#C
+#\hyphentextcquote{language}*[][postnote]{bibid}{text}#*C
+#\hyphentextcquote{language}*[prenote][postnote]{bibid}{text}#*C
+#\hyphentextcquote{language}*{bibid}[punct]{text}#*C
+#\hyphentextcquote{language}*[prenote]{bibid}[punct]{text}#*C
+#\hyphentextcquote{language}*[][postnote]{bibid}[punct]{text}#*C
+#\hyphentextcquote{language}*[prenote][postnote]{bibid}[punct]{text}#*C
 
-# Display Environments
 
-\begin{displayquote}[cite][punct]
+\blockcquote{bibid}{text}#C
+\blockcquote[prenote]{bibid}{text}#C
+#\blockcquote[][postnote]{bibid}{text}#*C
+#\blockcquote[prenote][postnote]{bibid}{text}#*C
+#\blockcquote{bibid}[punct]{text}#*C
+#\blockcquote[prenote]{bibid}[punct]{text}#*C
+#\blockcquote[][postnote]{bibid}[punct]{text}#*C
+#\blockcquote[prenote][postnote]{bibid}[punct]{text}#*C
+
+\foreignblockcquote{language}{bibid}{text}#C
+\foreignblockcquote{language}[prenote]{bibid}{text}#C
+#\foreignblockcquote{language}[][postnote]{bibid}{text}#*C
+#\foreignblockcquote{language}[prenote][postnote]{bibid}{text}#*C
+#\foreignblockcquote{language}{bibid}[punct]{text}#*C
+#\foreignblockcquote{language}[prenote]{bibid}[punct]{text}#*C
+#\foreignblockcquote{language}[][postnote]{bibid}[punct]{text}#*C
+#\foreignblockcquote{language}[prenote][postnote]{bibid}[punct]{text}#*C
+
+#\hyphenblockcquote{language}[prenote][postnote]{bibid}[punct]{text}#*C
+
+\hyphenblockcquote{language}{bibid}{text}#C
+\hyphenblockcquote{language}[prenote]{bibid}{text}#C
+#\hyphenblockcquote{language}[][postnote]{bibid}{text}#*C
+#\hyphenblockcquote{language}[prenote][postnote]{bibid}{text}#*C
+#\hyphenblockcquote{language}{bibid}[punct]{text}#*C
+#\hyphenblockcquote{language}[prenote]{bibid}[punct]{text}#*C
+#\hyphenblockcquote{language}[][postnote]{bibid}[punct]{text}#*C
+#\hyphenblockcquote{language}[prenote][postnote]{bibid}[punct]{text}#*C
+
+#\hybridblockcquote{language}[prenote][postnote]{bibid}[punct]{text}#*C
+
+\hybridblockcquote{language}{bibid}{text}#C
+\hybridblockcquote{language}[prenote]{bibid}{text}#C
+#\hybridblockcquote{language}[][postnote]{bibid}{text}#*C
+#\hybridblockcquote{language}[prenote][postnote]{bibid}{text}#*C
+#\hybridblockcquote{language}{bibid}[punct]{text}#*C
+#\hybridblockcquote{language}[prenote]{bibid}[punct]{text}#*C
+#\hybridblockcquote{language}[][postnote]{bibid}[punct]{text}#*C
+#\hybridblockcquote{language}[prenote][postnote]{bibid}[punct]{text}#*C
+
+\begin{displayquote}
+\begin{displayquote}[manual citation]
+\begin{displayquote}[][punct]#*
+\begin{displayquote}[manual citation][punct]#*
 \end{displayquote}
 
-\begin{foreigndisplayquote}{lang}[cite][punct]
+\begin{foreigndisplayquote}{language}
+\begin{foreigndisplayquote}{language}[manual citation]
+\begin{foreigndisplayquote}{language}[][punct]#*
+\begin{foreigndisplayquote}{language}[manual citation][punct]#*
 \end{foreigndisplayquote}
 
-\begin{hyphendisplayquote}{lang}[cite][punct]
+\begin{hyphendisplayquote}{language}
+\begin{hyphendisplayquote}{language}[manual citation]
+\begin{hyphendisplayquote}{language}[][punct]#*
+\begin{hyphendisplayquote}{language}[manual citation][punct]#*
 \end{hyphendisplayquote}
 
-\begin{displaycquote}[prenote][postnote]{key}[punct]
+\begin{displaycquote}{bibid}#C
+\begin{displaycquote}[prenote]{bibid}#C
+#\begin{displaycquote}[][postnote]{bibid}#*C
+#\begin{displaycquote}[prenote][postnote]{bibid}#*C
+#\begin{displaycquote}{bibid}[punct]#*C
+#\begin{displaycquote}[prenote]{bibid}[punct]#*C
+#\begin{displaycquote}[][postnote]{bibid}[punct]#*C
+#\begin{displaycquote}[prenote][postnote]{bibid}[punct]#*C
 \end{displaycquote}
 
-\begin{foreigndisplaycquote}{lang}[prenote][postnote]{key}[punct]
+\begin{foreigndisplaycquote}{bibid}#C
+\begin{foreigndisplaycquote}[prenote]{bibid}#C
+#\begin{foreigndisplaycquote}[][postnote]{bibid}#*C
+#\begin{foreigndisplaycquote}[prenote][postnote]{bibid}#*C
+#\begin{foreigndisplaycquote}{bibid}[punct]#*C
+#\begin{foreigndisplaycquote}[prenote]{bibid}[punct]#*C
+#\begin{foreigndisplaycquote}[][postnote]{bibid}[punct]#*C
+#\begin{foreigndisplaycquote}[prenote][postnote]{bibid}[punct]#*C
 \end{foreigndisplaycquote}
 
-\begin{hyphendisplaycquote}{lang}[prenote][postnote]{key}[punct]
+\begin{hyphendisplaycquote}{bibid}#C
+\begin{hyphendisplaycquote}[prenote]{bibid}#C
+#\begin{hyphendisplaycquote}[][postnote]{bibid}#*C
+#\begin{hyphendisplaycquote}[prenote][postnote]{bibid}#*C
+#\begin{hyphendisplaycquote}{bibid}[punct]#*C
+#\begin{hyphendisplaycquote}[prenote]{bibid}[punct]#*C
+#\begin{hyphendisplaycquote}[][postnote]{bibid}[punct]#*C
+#\begin{hyphendisplaycquote}[prenote][postnote]{bibid}[punct]#*C
 \end{hyphendisplaycquote}
-
-# Auxiliary Commands
 
 \textelp{}
 \textelp{text}
 \textelp*{text}
 
-\textins{text} \textins*{text}
+\textins{text}
+\textins*{text}
 
-# Configuration
-
-\DeclareQuoteStyle[variant]{style}[outer init][inner init]{opening outer mark}[middle outer mark]{closing outer mark}[kern]{opening inner mark}[middle inner mark]{closing inner mark}
-
-\DeclareQuoteAlias[variant]{style}{alias}
-\DeclareQuoteAlias{first-level alias}{second-level alias}
-
-\DeclareQuoteOption{style}
-
-\ExecuteQuoteOptions{key=value, . . . }
-
-\DeclarePlainStyle{opening outer mark}{closing outer mark}{opening inner mark}{closing inner mark}
-
-\SetBlockThreshold{integer}
-\SetBlockEnvironment{environment}
 \SetCiteCommand{command}
-
-\mkcitation{cite}
-\mkccitation{cite code}
-\mktextquote{open}{text}{close}{punct}{tpunct}{cite}
-\mkblockquote{text}{punct}{tpunct}{cite}
-
-\mkbegdispquote{punct}{cite}
-\mkenddispquote{punct}{cite}
-
-\ifpunctmark{character}{true}{false}
-\ifpunct{true}{false}
-
-\ifterm{true}{false}
-
-\iftextpunctmark{text}{character}{true}{false}
-\iftextpunct{text}{true}{false}
-\iftextterm{text}{true}{false}
-\ifblockquote{true}{false}
-\ifblank{string}{true}{false}
-
-\unspace
-
-\DeclareAutoPunct{characters}
