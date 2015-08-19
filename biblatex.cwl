@@ -250,30 +250,30 @@
 \Avolcite{volume}[page]{key}#c
 \Avolcite[prenote]{volume}[page]{key}#c
 
-\notecite{volume}{key}#c
-\notecite[prenote]{volume}{key}#c
-\notecite{volume}[postnote]{key}#c
-\notecite[prenote]{volume}[postnote]{key}#c
+\notecite{key}#c
+\notecite[prenote]{key}#c
+\notecite[postnote]{key}#c
+\notecite[prenote][postnote]{key}#c
 
-\Notecite{volume}{key}#c
-\Notecite[prenote]{volume}{key}#c
-\Notecite{volume}[postnote]{key}#c
-\Notecite[prenote]{volume}[postnote]{key}#c
+\Notecite{key}#c
+\Notecite[prenote]{key}#c
+\Notecite[postnote]{key}#c
+\Notecite[prenote][postnote]{key}#c
 
-\pnotecite{volume}{key}#c
-\pnotecite[prenote]{volume}{key}#c
-\pnotecite{volume}[postnote]{key}#c
-\pnotecite[prenote]{volume}[postnote]{key}#c
+\pnotecite{key}#c
+\pnotecite[prenote]{key}#c
+\pnotecite[postnote]{key}#c
+\pnotecite[prenote][postnote]{key}#c
 
-\Pnotecite{volume}{key}#c
-\Pnotecite[prenote]{volume}{key}#c
-\Pnotecite{volume}[postnote]{key}#c
-\Pnotecite[prenote]{volume}[postnote]{key}#c
+\Pnotecite{key}#c
+\Pnotecite[prenote]{key}#c
+\Pnotecite[postnote]{key}#c
+\Pnotecite[prenote][postnote]{key}#c
 
-\fnotecite{volume}{key}#c
-\fnotecite[prenote]{volume}{key}#c
-\fnotecite{volume}[postnote]{key}#c
-\fnotecite[prenote]{volume}[postnote]{key}#c
+\fnotecite{key}#c
+\fnotecite[prenote]{key}#c
+\fnotecite[postnote]{key}#c
+\fnotecite[prenote][postnote]{key}#c
 
 \citeauthor[prenote][postnote]{key}#c
 \citeauthor[postnote]{key}#c
