@@ -261,7 +261,6 @@
 \Avolcite[prenote]{volume}[page]{key}#c
 
 \notecite{key}#c
-\notecite[prenote]{key}#c
 \notecite[postnote]{key}#c
 \notecite[prenote][postnote]{key}#c
 
@@ -271,17 +270,14 @@
 \Notecite[prenote][postnote]{key}#c
 
 \pnotecite{key}#c
-\pnotecite[prenote]{key}#c
 \pnotecite[postnote]{key}#c
 \pnotecite[prenote][postnote]{key}#c
 
 \Pnotecite{key}#c
-\Pnotecite[prenote]{key}#c
 \Pnotecite[postnote]{key}#c
 \Pnotecite[prenote][postnote]{key}#c
 
 \fnotecite{key}#c
-\fnotecite[prenote]{key}#c
 \fnotecite[postnote]{key}#c
 \fnotecite[prenote][postnote]{key}#c
 
