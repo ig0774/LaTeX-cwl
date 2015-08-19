@@ -220,6 +220,16 @@
 \Smartcites[pre][post]{key}[pre][post]{key}#c
 \Smartcites(pre)(post)[pre][post]{key}[pre][post]{key}#c
 
+\volcite{volume}{key}#c
+\volcite[prenote]{volume}{key}#c
+\volcite{volume}[page]{key}#c
+\volcite[prenote]{volume}[page]{key}#c
+
+\Volcite{volume}{key}#c
+\Volcite[prenote]{volume}{key}#c
+\Volcite{volume}[page]{key}#c
+\Volcite[prenote]{volume}[page]{key}#c
+
 \svolcite{volume}{key}#c
 \svolcite[prenote]{volume}{key}#c
 \svolcite{volume}[page]{key}#c
