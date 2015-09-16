@@ -17,10 +17,10 @@
 \vpagerefrange*{fromlabel}{tolabel}
 \vpagerefrange[same page]{fromlabel}{tolabel}
 \vpagerefrange*[same page]{fromlabel}{tolabel}
-\vpageref[samepage]{label}
-\vpageref*[samepage]{label}
-\vpageref[samepage][otherpage]{label}
-\vpageref*[samepage][otherpage]{label}
+\vpageref[samepage]{label}#r
+\vpageref*[samepage]{label}#r
+\vpageref[samepage][otherpage]{label}#r
+\vpageref*[samepage][otherpage]{label}#r
 \vref{label}#r
 \vref*{label}#r
 \Vref{label}#r

@@ -180,7 +180,7 @@
 \cleardoublepage
 \clearpage
 \cline{i-j}#t
-\columnwidth
+\columnwidth#L
 \contentsline{type}{text}{page}
 \contentsname{name}
 \dag#*
@@ -269,7 +269,7 @@
 \linebreak
 \linebreak[number]
 \linethickness{dimension}
-\linewidth
+\linewidth#L
 \listfigurename{name}
 \listfiles
 \listoffigures
@@ -312,7 +312,7 @@
 \multiput(xcoord,ycoord)(xdelta,ydelta){copies}{object}#*/picture
 \newblock#*
 \newlabel
-\newlength{\length}
+\newlength{newlength}
 \newline
 \newpage
 \newtheorem{envname}[numberedlike]{caption}
@@ -449,7 +449,7 @@
 \textendash
 \textexclamdown
 \textgreater
-\textheight
+\textheight#L
 \textit{text}
 \textless
 \textmd{text}
@@ -474,7 +474,7 @@
 \textunderscore
 \textup{text}
 \textvisiblespace
-\textwidth
+\textwidth#L
 \thanks{text}
 \thicklines
 \thinlines

@@ -16,6 +16,7 @@
 \includegraphics[key val list]{file}
 \pagecolor{name}
 \pagecolor[model]{specification}
+\graphicspath{dir-list}
 \includegraphics*[keyvals]{imagefile}
 \includegraphics[keyvals]{imagefile}
 \reflectbox{text}
@@ -28,21 +29,21 @@
 \textcolor{name}{text}
 \textcolor[model]{specification}{text}
 #keyvals:\includegraphics
-width=
-height=
+width=##L
+height=##L
 bb=
 bbllx=
 bbly=
 bburx=
 bbury=
-natwidth=
-natheight=
+natwidth=##L
+natheight=##L
 hiresbb#true,false
 angle=
 origin=
 trim=
 viewport=
-totalheight=
+totalheight=##L
 scale=
 clip#true,false
 draft#true,false

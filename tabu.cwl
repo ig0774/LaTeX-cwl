@@ -28,7 +28,7 @@
 \tabureset
 \newtabulinestyle{style}
 \everyrow{code}
-\taburowcolors [<%first line%>] <number> {<first> .. <last>}
+\taburowcolors [<first line>] <number> {<first> .. <last>}
 \taburowcolors <number> {<first> .. <last>}
 \rowfont[alignment]{fontSpec}
 \tabudecimal{code}
