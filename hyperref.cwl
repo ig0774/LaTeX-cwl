@@ -60,6 +60,8 @@ unicode
 \hyperimage{imageURL}{text}#U
 \hyperdef{category}{name}{text}
 \hyperref{URL}{category}{name}{text}#U
+# trick for commandExtract, for now
+\hyperref[label]{URL}{category}{name}{text}#S
 \hyperref[label]{text}
 \hyperref{text}
 \hyperlink{name}{text}

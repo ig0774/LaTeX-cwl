@@ -144,6 +144,7 @@
 \if#*
 \ifcase#*
 \ifcat#*
+\ifdefined#*
 \ifdim#*
 \ifeof#*
 \iffalse#*
@@ -216,6 +217,8 @@
 \leftskip#*
 \leqno
 \let#*
+# for command interpretation
+\let{cmd}{def}#dS
 \limits#*
 \line#*
 \linepenalty#*
